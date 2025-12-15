@@ -46,7 +46,7 @@ export default function Header() {
             Orso Voyage
           </h1>
           <p className="text-lg md:text-xl text-white/80">
-            Agence de voyage officielle en collaboration avec l'Association des chamanes mongols
+            Agence de voyages spécialisée dans les voyages en Mongolie
           </p>
         </div>
       </div>

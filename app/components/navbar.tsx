@@ -33,7 +33,7 @@ export default function Navbar() {
 
         {/* Desktop menu */}
         <div className="hidden md:flex space-x-6">
-          <Links name="Home" href="/" />
+          <Links name="Accueil" href="/" />
           <Links name="Intervenants" href="/nos-intervenants" />
           <Links name="Voyages 2026" href="/contact" />
           <Links name="Chamanes Mongols" href="/chamanes-mongols" />

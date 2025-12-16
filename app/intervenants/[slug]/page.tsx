@@ -1,27 +1,57 @@
-import intervenants from "../../../data/intervenants.json";
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import intervenants from "@/data/intervenants.json";
 
-interface IntervenantPageProps {
+interface Props {
   params: { slug: string };
 }
 
-export default async function IntervenantPage({ params }: IntervenantPageProps) {
-  // params peut être une Promise, donc Next.js recommande async
-  const slug = params.slug; // ici Next.js a déjà résolu params, donc on peut l'utiliser
+export async function generateStaticParams() {
+  return intervenants.map((i) => ({ slug: i.slug }));
+}
 
-  // Trouver l'intervenant correspondant
-  const intervenant = intervenants.find(i => i.slug === slug);
+export default async function Page({ params }: Props) {
+  // `params` can be a Promise in the app router — unwrap it before use
+  const resolvedParams = (await params) as { slug: string };
+  const slug = resolvedParams.slug;
+  const intervenant = intervenants.find((i) => i.slug === slug);
 
-    console.log("param"+params); // Vérifie ce que Next.js envoie
-    console.log("slug"+slug);
-
-
-  if (!intervenant) return <p>Intervenant non trouvé pour slug: {slug}</p>;
+  if (!intervenant) {
+    notFound();
+  }
 
   return (
-    <div className="p-8 flex flex-col items-center">
-      <h1 className="text-3xl font-bold">{intervenant.name}</h1>
-      <img src={intervenant.img} alt={intervenant.name} className="w-64 h-64 object-cover rounded-full my-4" />
-      <p className="text-lg text-center">{intervenant.desc}</p>
+    <div className="flex flex-col mt-22 items-center justify-start py-8 px-4 md:px-8">
+      <div className="max-w-4xl w-full bg-white dark:bg-zinc-900 rounded-2xl shadow-md overflow-hidden">
+        <div className="md:flex md:items-center">
+          <div className="md:w-1/3 w-full">
+            <img
+              src={intervenant!.img}
+              alt={intervenant!.name}
+              className="w-full h-64 md:h-full object-cover"
+            />
+          </div>
+
+          <div className="p-6 md:w-2/3">
+            <h1 className="text-2xl font-bold text-zinc-900 dark:text-white">
+              {intervenant!.name}
+            </h1>
+            <p className="mt-4 text-zinc-700 dark:text-zinc-300">
+              {intervenant!.fulldesc}
+            </p>
+
+            <div className="mt-6">
+              <Link
+                href="/nos-intervenants"
+                className="inline-block rounded-md bg-zinc-100 dark:bg-zinc-800 px-4 py-2 text-sm text-zinc-900 dark:text-white hover:opacity-90"
+              >
+                ← Retour à la liste
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
+

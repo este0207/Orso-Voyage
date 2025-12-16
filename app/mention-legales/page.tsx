@@ -1,6 +1,6 @@
 export default function MentionLegales() {
     return (
-        <div className="max-w-4xl mx-auto p-6 bg-white dark:bg-gray-900 rounded-lg shadow-md my-10">
+        <div className="max-w-4xl mx-auto p-6 mt-25 bg-white dark:bg-gray-900 rounded-lg shadow-md my-10">
             <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">Mentions Légales</h1>
             <section className="mb-6">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Éditeur du site</h2>

@@ -23,8 +23,8 @@ export default async function Page({ params }: Props) {
   return (
     <div className="flex flex-col mt-22 items-center justify-start py-8 px-4 md:px-8">
       <div className="max-w-4xl w-full bg-white dark:bg-zinc-900 rounded-2xl shadow-md overflow-hidden">
-        <div className="md:flex md:items-center">
-          <div className="md:w-1/3 w-full">
+        <div className="md:flex flex-col md:items-center">
+          <div className="md:w-1/2 w-full">
             <img
               src={intervenant!.img}
               alt={intervenant!.name}

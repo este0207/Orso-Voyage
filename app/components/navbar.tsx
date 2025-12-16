@@ -24,11 +24,11 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed z-20 w-full p-4 bg-white/80 dark:bg-gray-800/20 shadow-md backdrop-blur-md">
+    <nav className="fixed z-20 w-full p-4 bg-white/40 dark:bg-gray-800/20 shadow-md backdrop-blur-md">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="text-xl font-bold text-gray-800 dark:text-white">
-          <Link href="/">Orso Voyage</Link>
+        <div className="hover:scale-105 transition-transform">
+          <Link href="/"><img src="/logo-orso-voyage.png" alt="orso-voyage-logo" className="h-10 w-auto"/></Link>
         </div>
 
         {/* Desktop menu */}

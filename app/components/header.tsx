@@ -9,6 +9,10 @@ const images = [
   "/image3.jpg",
   "/image4.jpg",
   "/image5.jpg",
+  "/image6.jpeg",
+  "/image7.jpeg",
+  "/image8.jpeg",
+  "/image9.jpeg",
 ];
 
 export default function Header() {

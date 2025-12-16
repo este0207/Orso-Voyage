@@ -7,7 +7,7 @@ interface LinkProps {
 
 export default function Links({ href, name }: LinkProps) {
     return (
-        <Link href={href} className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white mx-2 scale-95 hover:scale-105 transition-transform">
+        <Link href={href} className="text-black-600 dark:text-gray-300 hover:text-gray-300 dark:hover:text-white mx-2 scale-95 hover:scale-105 transition-transform">
             {name}
         </Link>
     );

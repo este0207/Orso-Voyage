@@ -8,7 +8,7 @@ export default function MentionLegales() {
                     Nom de l'entreprise : ORSO VOYAGE SARL<br />
                     Adresse : 43, avenue des Molières, 78470 Saint Rémy lès Chevreuse, France<br />
                     Téléphone : 09 73 66 22 68<br />
-                    Email : [Adresse email]<br />
+                    Email : orsosvoyages@gmail.com<br />
                     N° SIRET : 818 121 436 00013<br />
                     APE : 633Z<br />
                     Capital social : 7 500 €<br />

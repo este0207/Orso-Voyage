@@ -24,7 +24,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen flex mt-10 flex-col md:flex-row items-center justify-center p-6 gap-8">
+    <div className="min-h-screen flex mt-10 flex-col md:flex-row items-center justify-center p-6 gap-8 dark:bg-black">
       {/* Formulaire */}
       <motion.div
         className="w-full md:w-1/2 bg-white p-8 rounded-2xl shadow-lg"

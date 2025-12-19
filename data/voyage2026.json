@@ -1,0 +1,79 @@
+{
+    "title": "À la rencontre des chamanes de Mongolie - Voyages immersifs 2025-2026",
+    "description": "Voyages initiatiques en Mongolie combinant découvertes culturelles, expériences spirituelles et rituels de guérison avec des chamanes mongols.",
+    "voyages_mondiaux": [
+        {
+            "region": "Désert du Sahara",
+            "destination": "Djanet, Algérie",
+            "dates": "24-30 janvier 2026",
+            "titre": "Temps suspendu à Djanet",
+            "guide": "Chimegmaa ORSOO",
+            "prix_eur": 980
+        },
+        {
+            "region": "Maroc",
+            "dates": "26 janvier - 2 février 2026",
+            "titre": "Immersion transformative au Maroc",
+            "guides": ["Laurent Fauconnier", "Dominique Langlois"],
+            "prix_eur": 1480
+        },
+        {
+            "region": "Laponie norvégienne",
+            "destination": "Tromsø",
+            "dates": "1-8 février 2026",
+            "titre": "Aurore boréale à Tromsø",
+            "guide": "Gunn-Tove Minde",
+            "prix_eur": 2480
+        }
+    ],
+    "voyages_laponie_suede": [
+        {
+            "dates": "24-30 novembre 2025",
+            "titre": "Aurore boréale",
+            "guide": "Peter",
+            "prix_eur": 1490
+        },
+        {
+            "dates": "15-21 décembre 2025",
+            "titre": "Aurore boréale",
+            "guide": "Peter",
+            "prix_eur": 1490
+        },
+        {
+            "dates": "29 décembre 2025 - 4 janvier 2026",
+            "titre": "Nouvel An & Aurore boréale",
+            "guides": ["Peter", "Christelle"],
+            "prix_eur": 1690
+        }
+    ],
+    "voyages_mongolie_2026": [
+        {
+            "dates": "14 février - 1 mars 2026",
+            "titre": "Voyage Nouvel an Mongolie",
+            "guide": "Chamanes mongols",
+            "prix_eur": 3390,
+            "avion": "Inclus (Francfort)"
+        },
+        {
+            "dates": "16-30 mai 2026",
+            "titre": "Voyage à cheval avec chaman de Mongolie",
+            "guide": "Chamanes mongols",
+            "prix_eur": 3290,
+            "avion": "Inclus (Francfort)"
+        },
+        {
+            "dates": "12-26 septembre 2026",
+            "titre": "Voyage à la rencontre des chamanes de Mongolie",
+            "guide": "Frédérique Poc",
+            "prix_eur": 3490,
+            "avion": "Inclus (Francfort)"
+        },
+        {
+            "dates": "17-31 octobre 2026",
+            "titre": "Voyage à la rencontre des chamans",
+            "guide": "Luc Bodin",
+            "prix_eur": 3690,
+            "avion": "Inclus (Francfort)"
+        }
+    ]
+}

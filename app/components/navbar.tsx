@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-6">
           <Links name="Accueil" href="/" />
           <Links name="Intervenants" href="/nos-intervenants" />
-          <Links name="Voyages 2026" href="/contact" />
+          <Links name="Voyages 2026" href="/nos-voyageq" />
           <Links name="Chamanes Mongols" href="/chamanes-mongols" />
           <Links name="Equipe Locale" href="/equipe-locale" />
           <Links name="Contact" href="/contact" />

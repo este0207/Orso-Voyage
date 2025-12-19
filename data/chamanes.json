@@ -1,0 +1,38 @@
+[
+    {
+        "nom": "Khar Sono",
+        "id": 1,
+        "img": "/chamanes/Khar_Sono.jpg",
+        "description": "Un jeune homme très engagé pour devenir un chaman reconnu. Médecin généraliste de métier, conseiller principal de l’association chamanisme mongole, Har Sono est chaman depuis 10 ans et pratique les rites ancestrales et un des membres importants de l’association chamanique Gerliin Urguu de Mongolie. Membre du Cercle de Sagesse ancestrale, Har Sono vient tous les ans assister au Festival du Chamanisme en France en compagnie d’autres chamanes mongols. Har Sono a participé avec la GrandMère Ayangat à un ouvrage s’intitulant Chamanisme en Mongolie qui sera édité prochainement en français chez l’éditeur GuyTrédaniel."
+    },
+    {
+        "nom": "Tenger Huu",
+        "id": 2,
+        "img": "/chamanes/Tenger_Huu.jpg",
+        "description": "Chaman depuis 5 ans, membre de Cercle de sagesse et de l’union ancestrale du Monde, Chef de la délégation mongole au Cercle de Sagesse internationale, Tenger Huu est le président d’association des chamanes Gerliin Urguu. Il a organisé de nombreux évènements chamaniques en Mongolie notamment le Festival international du chamanisme à Oulanbator en septembre 2015."
+    },
+    {
+        "nom": "Shar Hadaan",
+        "id": 3,
+        "img": "/chamanes/Shar_Hadaan.jpg",
+        "description": "Nous aurons le plaisir d’avoir dans notre groupe de chamanes, un chef cuisinier qui s’appelle Shar Hadaan qui est un chef professionnel dans un grand restaurant à Oulanbator. Shar Hadaan va nous préparer tous les jours des plats succulents et vous serez unanimes pour reconnaitre ses qualités de grand cuisinier. Il est aussi un chaman très respecté par ses collègues."
+    },
+    {
+        "nom": "Savaagui Balchir",
+        "id": 4,
+        "img": "/chamanes/Savaagui_Balchir.jpg",
+        "description": "Je m’appelle Munkhbayar. J’ai 37 ans. J’ai été obligé de recevoir les esprits des anciens qui ont voulu s’exprimer à travers moi. Depuis l’acceptation de mon destin chamanique, j’ai découvert ma mission de vie, comment je peux devenir utile aux autres en apprenant des techniques de guérison et de nettoyage énergétique. Les connaissances que j’ai envie de partager aujourd’hui. Je suis aussi un des premiers membres de l’association chamanique mongole Gerliin Urguu. Parallèlement à mes activités chamaniques, je travaille en tant que cameraman dans une chaîne de télévision mongole. Plutard, je rêve de faire des films chamaniques."
+    },
+    {
+        "nom": "Taivan Zairan",
+        "id": 5,
+        "img": "/chamanes/Taivan_Zairan.jpg",
+        "description": "Cela fait plusieurs années de Taivan Zairan se concentre sur des différentes techniques de guérison énergétique.Taivan Zairan a envie de partager ses connaissances et découvrir aussi d’autres cultures chamaniques du monde. Relayeurs de nombreux oracles, il a appris beaucoup de contes et mythes chamaniques que les esprits lui ont relatés. Taivan travaille également sur de nombreux ouvrages chamaniques édités par l’association Gerliin Urguu."
+    },
+    {
+        "nom": "Khar Zed Zairan",
+        "id": 6,
+        "img": "/chamanes/Khar_Zed_Zairan.jpg",
+        "description": "Membre de Gerliin Urguu depuis 2012. Chamane de l’ethnie khalkha. Je souhaite faire connaître les connaissances qui m’ont été transmises par mes esprits de ma lignée. Je travaille beaucoup avec de différents instruments et je pratique des chants diphoniques. Mes chants et mes musiques sont faits pour honorer les esprits des montagagnes, des rivières et des steppes."
+    }
+]
